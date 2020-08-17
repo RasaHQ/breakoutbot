@@ -1,0 +1,28 @@
+actions:
+  - action_look
+  - action_pickup
+  - action_inventory
+  - utter_describe_room
+  - utter_greet
+
+intents:
+  - greet
+  - look
+  - pickup
+  - use
+
+slots:
+  key:
+    type: bool
+    initial_value: False
+
+responses:
+  utter_greet:
+  - text: "You are in a room and it is your goal to escape. You can look at items in the room, you can pick up certain items and you can combine/use them to try to escape. Everything is text based. Good luck!"
+
+  utter_describe_room:
+  - text: "There seem to be three things in the room. A window, a box and a door."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
