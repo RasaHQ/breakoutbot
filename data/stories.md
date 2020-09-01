@@ -15,7 +15,7 @@
 * inventory
   - action_inventory
 * use
-  - action_use  
+  - action_use
 
 ## also happy path
 * greet
@@ -38,8 +38,3 @@
   - action_look
 * use
   - action_use
-
-
-
-
-foo
