@@ -1,27 +1,37 @@
-actions:
-  - action_look
-  - action_pickup
-  - action_inventory
-  - utter_describe_room
-  - utter_greet
-
 intents:
   - greet
   - look
   - pickup
   - use
+  - inventory
+  - help
+
+entities:
+  - object
+
+actions:
+  - action_use
+  - action_look
+  - action_pickup
+  - action_inventory
 
 slots:
   key:
     type: bool
-    initial_value: False
+    initial_value: false
+  poster:
+    type: bool
+    initial_value: false
 
 responses:
   utter_greet:
-  - text: "You are in a room and it is your goal to escape. You can look at items in the room, you can pick up certain items and you can combine/use them to try to escape. Everything is text based. Good luck!"
-
-  utter_describe_room:
-  - text: "There seem to be three things in the room. A window, a box and a door."
+  - text: Hey! Welcome to the breakoutbot adventure!
+          You are in a room and it is your goal to escape from it. There seem to be three things in the room: a window, a box and a door.
+          You can try to interact with these items and you can combine/pickup/use them try to escape. Everything is text based. Good luck!
+  utter_help:
+  - text: This is a text based adventure game.
+          The goal is to escape from the room but you can try to look around the room to find items that might help you escape.
+          You can try to `look` and items, you might be able to `pick up` items and you can try to `use` items on other objects.
 
 session_config:
   session_expiration_time: 60

@@ -5,28 +5,39 @@
 - good morning
 - good evening
 - hey there
-- yo
 
-## intent:look
+## intent: look
 - look at [room](object)
 - i want to look at the [window](object)
 - check the [box](object)
 - peek at [key](object)
 - watch the [poster](object)
+- glance at the [door](object)
 
-## intent:pickup
+## intent: pickup
 - pick ups the [room](object)
 - snag the [window](object)
 - grab the [box](object)
 - seize the [key](object)
 
-## intent:use
+## intent: use
 - combine the [key](object) with the [box](object)
 - use the [window](object) on the [key](object)
 - use the [key](object) with the [box](object)
-- unite the [key](object) with the [box](object)
+- use [poster](object) on [box](object)
+- use [key](object) on [door](object)
+- unite the [poster](object) with the [box](object)
 
 ## intent: inventory
 - show inventory
 - what is in my inventory
 - what items to i currently have
+- what have i picked up sofar
+
+## intent: help
+- help
+- how does this game work
+- what commands can i use
+- how does this work?
+- help me
+- i do not understand this
