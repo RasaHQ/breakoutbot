@@ -111,7 +111,7 @@ class ActionUse(Action):
             dispatcher.utter_message(text=f"I could only make out that you wanted to combine {' and '.join(entities)}.")
             dispatcher.utter_message(text="You can only combine two items at a time.")
             return []
-        # there are two items and they are confirmed 
+        # there are two items and they are confirmed
         item1, item2 = entities
         if (item1, item2) in combinations.keys():
             dispatcher.utter_message(text=combinations[(item1, item2)])
