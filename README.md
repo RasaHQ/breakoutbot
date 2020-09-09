@@ -2,13 +2,14 @@
 
 # BreakoutBot
 
-This repository contains an example project of a text-based adventure game built with Rasa. It's an open community
-project and the goal is to host a proper text based escape room that you can play with. It is a community project
-and we're recording the milestones. You can watch the videos describing how this was built here.
+This repository contains an example project of a text-based adventure game built with Rasa. The 
+goal is to host and maintain a proper text based escape room that you can play with. This project
+is open to outside contributions and we're recording the milestones/lessons learned in a series 
+on Youtube. You can watch the videos describing how this was built [here]().
 
 ## Contributing
 
-This project is a community project and there are many ways you can contribute.
+There are many ways you can contribute to this project.
 
 - **Give feedback.** If you play with the assistant and notice that there are features missing we'd love to hear it.
 - **Add data.** If you think that there's data missing for some intents you're free to create a PR.
