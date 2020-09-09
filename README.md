@@ -18,7 +18,7 @@ This project is a community project and there are many ways you can contribute.
 
 ## Start Locally
 
-If you want to play around with this game locally you can clone this repository and setup Rasa.
+If you want to play around with this game locally you can clone this repository and setup Rasa. This project currently uses Rasa version 1.10.
 
 ```
 git clone git@github.com:RasaHQ/breakoutbot.git
