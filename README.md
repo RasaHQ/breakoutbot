@@ -35,6 +35,6 @@ rasa shell
 
 On our youtube channel we've started a small documentary on the development of this text-based adventure game. Depending on what videos you're watching we might have a different version of Rasa in the running version of this project. In the overview below you can confirm what versions we've used and you can also find the reference to the saved code in case you want to re-run the code. 
 
-| Season 	      | Youtube Link 	| Rasa Version 	| Code Link 	                                                |
-|-------------	|--------------	|--------------	|------------------------------------------------------------	|
-| Season One  	|              	| 1.10        	| [S1](https://github.com/RasaHQ/breakoutbot/releases/tag/s1) |
+| Season 	      | Youtube Link 	                                                                                                                        | Rasa Version 	| Code Link 	                                                |
+|-------------	|-------------------------------------------------------------------------------------------------------------------------------------	|--------------	|------------------------------------------------------------	|
+| Season One  	| [Link](https://www.youtube.com/watch?v=rzTSSSnNOpA&list=PL75e0qA87dlGS2ik6n1sN-KjG39yCrGgf&index=2&t=0s&ab_channel=Rasa)             	| 1.10        	| [S1](https://github.com/RasaHQ/breakoutbot/releases/tag/s1) |
