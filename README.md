@@ -7,6 +7,8 @@ goal is to host and maintain a proper text based escape room that you can play w
 is open to outside contributions and we're recording the milestones/lessons learned in a series 
 on Youtube. 
 
+## Youtube
+
 You can find the Youtube playlist for this repository [here](https://www.youtube.com/playlist?list=PL75e0qA87dlGS2ik6n1sN-KjG39yCrGgf).
 
 ## Contributing
