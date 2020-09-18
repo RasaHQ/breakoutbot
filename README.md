@@ -21,6 +21,8 @@ There are many ways you can contribute to this project.
   Feel free to join some of the discussions in the issues to think along.
 - **Report bugs.** If you feel like some of the commands make no sense, feel free to let us know!
 
+If your issue is Rasa related, you might be able to find help on our [forum](https://forum.rasa.com). 
+
 ## Start Locally
 
 If you want to play around with this game locally you can clone this repository and setup Rasa. This project currently uses Rasa version 1.10.
