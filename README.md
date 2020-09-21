@@ -33,10 +33,10 @@ pip install rasa==1.10
 rasa train
 ```
 
-Once you've done this, you should be able to play the game.
+Once you've done this, you should be able to run rasa actions and play the game.
 
 ```python
-rasa shell
+rasa run actions & rasa shell
 ```
 ## Versions 
 
