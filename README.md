@@ -1,14 +1,19 @@
-<img src="logo.png" width=125 height=125 align="right">
+<img src="logo.png" width=200 align="right">
 
 # BreakoutBot
 
-This repository contains an example project of a text based adventure game built with Rasa. It's an open community
-project and the goal is to host a proper text based escape room that you can play with. It is a community project
-and we're recording the milestones. You can watch the videos describing how this was built here.
+This repository contains an example project of a text-based adventure game built with Rasa. The 
+goal is to host and maintain a proper text based escape room that you can play with. This project
+is open to outside contributions and we're recording the milestones/lessons learned in a series 
+on Youtube. 
+
+## Youtube
+
+You can find the Youtube playlist for this repository [here](https://www.youtube.com/playlist?list=PL75e0qA87dlGS2ik6n1sN-KjG39yCrGgf).
 
 ## Contributing
 
-This project is a community project and there are many ways you can contribute.
+There are many ways you can contribute to this project.
 
 - **Give feedback.** If you play with the assistant and notice that there are features missing we'd love to hear it.
 - **Add data.** If you think that there's data missing for some intents you're free to create a PR.
@@ -16,9 +21,11 @@ This project is a community project and there are many ways you can contribute.
   Feel free to join some of the discussions in the issues to think along.
 - **Report bugs.** If you feel like some of the commands make no sense, feel free to let us know!
 
+If your issue is Rasa related, you might be able to find help on our [forum](https://forum.rasa.com). 
+
 ## Start Locally
 
-If you want to play around with this game locally you can clone this repository and setup Rasa.
+If you want to play around with this game locally you can clone this repository and setup Rasa. This project currently uses Rasa version 1.10.
 
 ```
 git clone git@github.com:RasaHQ/breakoutbot.git
@@ -26,8 +33,15 @@ pip install rasa==1.10
 rasa train
 ```
 
-Once you've done this, you should be able to play the game.
+Once you've done this, you should be able to run rasa actions and play the game.
 
 ```python
-rasa shell
+rasa run actions & rasa shell
 ```
+## Versions 
+
+On our youtube channel we've started a small documentary on the development of this text-based adventure game. Depending on what videos you're watching we might have a different version of Rasa in the running version of this project. In the overview below you can confirm what versions we've used and you can also find the reference to the saved code in case you want to re-run the code. 
+
+| Season 	      | Youtube Link 	                                                                                                                        | Rasa Version 	| Code Link 	                                                |
+|-------------	|-------------------------------------------------------------------------------------------------------------------------------------	|--------------	|------------------------------------------------------------	|
+| Season One  	| [Link](https://www.youtube.com/watch?v=rzTSSSnNOpA&list=PL75e0qA87dlGS2ik6n1sN-KjG39yCrGgf&index=2&t=0s&ab_channel=Rasa)             	| 1.10        	| [S1](https://github.com/RasaHQ/breakoutbot/releases/tag/s1) |
