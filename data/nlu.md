@@ -9,6 +9,7 @@
 - howdy
 - hello breakoutbot
 - Hello
+- hello there
 
 ## intent:look
 - look at [room](object)
@@ -18,11 +19,8 @@
 - watch the [poster](object)
 - glance at the [door](object)
 - look at the cardboard [box](object)
-- look at the [window](object)
 - look around
 - look into the [box](object)
-- open the [box](object)
-- lets open the [box](object)
 - look at cardboard [box](object)
 - Can I look at the [window](object)?
 - inspect the [window](object)
@@ -33,6 +31,32 @@
 - go to the [door](object)
 - look at the [key](object)
 - look at the [door](object)
+- throw the [box](object) at the [window](object)
+
+## intent:violence
+- look at the [window](object)
+- break the [window](object)
+- destroy the [door](object)
+- kick down the [door](object)
+- smash the [window](object)
+
+## intent:use
+- open the [box](object)
+- lets open the [box](object)
+- combine the [key](object) with the [box](object)
+- use the [window](object) on the [key](object)
+- use the [key](object) with the [box](object)
+- use [poster](object) on [box](object)
+- use [key](object) on [door](object)
+- unite the [poster](object) with the [box](object)
+- use the [key](object) on the [window](object)
+- use the [window](object)
+- open the [window](object)
+- combine the [poster](object) with the [key](object)
+- combine the [window](object) with the [door](object)
+- use the [key](object) on the [door](object)
+- [key](object) to the [door](object)?
+- combine the [key](object) with the [window](object)
 
 ## intent:pickup
 - pick ups the [room](object)
@@ -43,20 +67,6 @@
 - pick up the [poster](object)
 - pick up the [key](object)
 
-## intent:use
-- combine the [key](object) with the [box](object)
-- use the [window](object) on the [key](object)
-- use the [key](object) with the [box](object)
-- use [poster](object) on [box](object)
-- use [key](object) on [door](object)
-- unite the [poster](object) with the [box](object)
-- use the [key](object) on the [window](object)
-- throw the [box](object) at the [window](object)
-- use the [window](object)
-- open the [window](object)
-- combine the [poster](object) with the [key](object)
-- combine the [window](object) with the [door](object)
-
 ## intent:inventory
 - show inventory
 - what is in my inventory
@@ -65,6 +75,8 @@
 - check inventory
 - check my inventory
 - look at the inventory
+- Where do I find my inventory?
+- show me inventory
 
 ## intent:help
 - help
@@ -75,8 +87,9 @@
 - i do not understand this
 - can i get a hint?
 - what can i do?
+- where am i
+- I found the cardboard [box](object), can I open it?
+- how do I find the [door](object)?
 
-## intent:violence
-- break the [window](object)
-- destroy the [door](object)
-- kick down the [door](object)
+## intent:goodbye
+- Bye
