@@ -38,10 +38,21 @@ Once you've done this, you should be able to run rasa actions and play the game.
 ```python
 rasa run actions & rasa shell
 ```
+
+If you want to run this with Rasa X locally, you'll need to install it first. 
+
+```python
+python -m pip install rasa-x==0.32 -i https://pypi.rasa.com/simple
+rasa x
+```
+
+Remember, when you're running Rasa X you'll also need to make sure that the custom actions are running in the background. 
+
 ## Versions 
 
 On our youtube channel we've started a small documentary on the development of this text-based adventure game. Depending on what videos you're watching we might have a different version of Rasa in the running version of this project. In the overview below you can confirm what versions we've used and you can also find the reference to the saved code in case you want to re-run the code. 
 
-| Season 	      | Youtube Link 	                                                                                                                        | Rasa Version 	| Code Link 	                                                |
-|-------------	|-------------------------------------------------------------------------------------------------------------------------------------	|--------------	|------------------------------------------------------------	|
-| Season One  	| [Link](https://www.youtube.com/watch?v=rzTSSSnNOpA&list=PL75e0qA87dlGS2ik6n1sN-KjG39yCrGgf&index=2&t=0s&ab_channel=Rasa)             	| 1.10        	| [S1](https://github.com/RasaHQ/breakoutbot/releases/tag/s1) |
+| Season 	      | Youtube Link 	                                                                                                                        | Rasa Version 	| Rasa X Version | Code Link 	                                                  |
+|-------------	|-------------------------------------------------------------------------------------------------------------------------------------	|--------------	| -------------- |------------------------------------------------------------	|
+| Season One  	| [Link](https://www.youtube.com/watch?v=rzTSSSnNOpA&list=PL75e0qA87dlGS2ik6n1sN-KjG39yCrGgf&index=2&t=0s&ab_channel=Rasa)             	| 1.10        	|             	 | [S1](https://github.com/RasaHQ/breakoutbot/releases/tag/s1)  |
+| Season Two  	| [Link](https://www.youtube.com/watch?v=0d_gF4GP7VU&list=PL75e0qA87dlGS2ik6n1sN-KjG39yCrGgf&index=8&ab_channel=Rasa)             	    | 1.10        	| 0.31           | [S2](https://github.com/RasaHQ/breakoutbot/releases/tag/s2)  |
