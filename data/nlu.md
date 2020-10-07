@@ -93,3 +93,5 @@
 
 ## intent:goodbye
 - Bye
+- Ciao
+- goobye
