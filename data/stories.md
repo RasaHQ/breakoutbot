@@ -1,5 +1,4 @@
 ## happy path
-  - utter_greet
 * greet
   - utter_greet
 * help

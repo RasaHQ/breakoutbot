@@ -1,0 +1,15 @@
+stories:
+- story: A basic end-to-end test
+  steps:
+  - user: |
+      hello
+    intent: greet
+  - action: utter_ask_howcanhelp
+  - user: |
+     show me [chinese]{"entity": "cuisine"} restaurants
+    intent: inform
+  - action: utter_ask_location
+  - user: |
+      in [Paris]{"entity": "location"}
+    intent: inform
+  - action: utter_ask_price
