@@ -29,4 +29,6 @@ jobs:
     - name: Lint the files
       run: pre-commit run --files *.yml data/*
     - name: Run conversational unit tests
-      run: rasa test --stories tests/conversation_tests.md --fail-on-prediction-errors
+      run: |
+        rasa train
+        rasa test --stories tests/conversation_tests.md --fail-on-prediction-errors
