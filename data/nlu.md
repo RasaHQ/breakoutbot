@@ -83,13 +83,18 @@
 - how does this game work
 - what commands can i use
 - how does this work?
-- help me
+- please help me
 - i do not understand this
-- can i get a hint?
 - what can i do?
 - where am i
 - I found the cardboard [box](object), can I open it?
 - how do I find the [door](object)?
+
+## intent:hint
+- can i get a hint?
+- hint please
+- I'm stuck
+- give me a hint
 
 ## intent:goodbye
 - Bye

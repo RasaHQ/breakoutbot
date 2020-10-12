@@ -1,4 +1,4 @@
-name: Python package
+name: Test Conversations
 
 on:
   push:
@@ -23,11 +23,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install
-      run: pip install rasa pre-commit
-    - name: Validate Rasa
-      run: rasa data validate
-    - name: Lint the files
-      run: pre-commit run --files *.yml data/*
+      run: pip install rasa==1.10
     - name: Run conversational unit tests
       run: |
         rasa train
