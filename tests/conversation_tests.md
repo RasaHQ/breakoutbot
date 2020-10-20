@@ -5,7 +5,7 @@
   - utter_help
 * hint: could you give me a hint
   - utter_hint
-* look: look at the window
+* look: look at the [window](object)
   - action_look
 * pickup: pick up the [key](object)
   - action_pickup

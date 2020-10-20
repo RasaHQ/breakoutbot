@@ -22,19 +22,20 @@ slots:
     initial_value: false
 responses:
   utter_greet:
-  - text: "Hey! Welcome to the breakoutbot adventure! You are in a room and it is
-      your goal to escape from it. There seem to be three things in the room: a window,
-      a box and a door. You can try to interact with these items and you can combine/pickup/use
-      them try to escape. Everything is text based. For hints, try looking at items in the room.
-      You can also ask for help if you've never played these sorts of games before. Good luck!"
+  - text: "Hey! Welcome to the breakoutbot adventure! You are in a room and it is\
+      \ your goal to escape from it. There seem to be three things in the room: a\
+      \ window, a box and a door. You can try to interact with these items and you\
+      \ can combine/pickup/use them try to escape. Everything is text based. For hints,\
+      \ try looking at items in the room. You can also ask for help if you've never\
+      \ played these sorts of games before. Good luck!"
   utter_help:
-  - text: "This is a text based adventure game. You're able to pick up items and
-      you're also able to combine them in order to solve puzzles. You can try to `look`
-      and items, you might be able to `pick up` items and you can try to `use` items
-      on other objects. Before you're able to combine items you first need to pick them up.
-      If you get stuck, feel free to ask for a hint!"
+  - text: This is a text based adventure game. You're able to pick up items and you're
+      also able to combine them in order to solve puzzles. You can try to `look` and
+      items, you might be able to `pick up` items and you can try to `use` items on
+      other objects. Before you're able to combine items you first need to pick them
+      up. If you get stuck, feel free to ask for a hint!
   utter_hint:
-    - text: "Try looking at the window or cardbox box."
+  - text: Try looking at the window or cardbox box.
 actions:
 - action_use
 - action_look

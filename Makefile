@@ -1,5 +1,6 @@
 install:
-	pip install rasa
+	pip install rasa pre-commit
+	pre-commit install
 
 check:
 	pre-commit run --files *.yml data/*
