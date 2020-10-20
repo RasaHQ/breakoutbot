@@ -23,7 +23,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install
-      run: pip install rasa pre-commit
+      run: pip install rasa==1.10 pre-commit
     - name: Validate Rasa
       run: rasa data validate
     - name: Lint the files
