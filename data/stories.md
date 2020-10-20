@@ -1,5 +1,4 @@
 ## happy path
-  - utter_greet
 * greet
   - utter_greet
 * help
@@ -16,6 +15,16 @@
   - action_inventory
 * use
   - action_use
+
+## hint hint path
+* greet
+  - utter_greet
+* help
+  - utter_help
+* hint
+  - utter_hint
+* look
+  - action_look
 
 ## also happy path
 * greet
