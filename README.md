@@ -42,7 +42,7 @@ rasa run actions & rasa shell
 If you want to run this with Rasa X locally, you'll need to install it first.
 
 ```python
-python -m pip install rasa-x==0.32 -i https://pypi.rasa.com/simple
+python -m pip install rasa-x==0.31 -i https://pypi.rasa.com/simple
 rasa x
 ```
 
