@@ -1,4 +1,4 @@
-name: Python package
+name: Cron Tests Lastest Rasa Version
 
 on:
   push:
@@ -10,7 +10,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -23,11 +22,9 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install
-      run: pip install rasa==2.0.3 pre-commit
+      run: pip install rasa
     - name: Validate Rasa
       run: rasa data validate
-    - name: Lint the files
-      run: pre-commit run --files *.yml data/*
     - name: Run conversational unit tests
       run: |
         rasa train

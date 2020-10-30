@@ -1,0 +1,56 @@
+version: "2.0"
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help
+  - action: utter_help
+  - intent: look
+  - action: action_look
+  - intent: pickup
+  - action: action_pickup
+  - slot_was_set:
+    - key: true
+  - intent: pickup
+  - action: action_pickup
+  - slot_was_set:
+    - poster: true
+  - intent: inventory
+  - action: action_inventory
+  - intent: use
+  - action: action_use
+- story: hint hint path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help
+  - action: utter_help
+  - intent: hint
+  - action: utter_hint
+  - intent: look
+  - action: action_look
+- story: also happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inventory
+  - action: action_inventory
+  - intent: look
+  - action: action_look
+  - intent: pickup
+  - action: action_pickup
+  - slot_was_set:
+    - poster: true
+  - intent: inventory
+  - action: action_inventory
+  - intent: pickup
+  - action: action_pickup
+  - slot_was_set:
+    - key: true
+  - intent: inventory
+  - action: action_inventory
+  - intent: look
+  - action: action_look
+  - intent: use
+  - action: action_use
