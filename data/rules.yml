@@ -1,0 +1,17 @@
+version: "2.0"
+rules:
+- rule: simple greet rule
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: ask for help once
+  steps:
+  - intent: help
+  - action: utter_help
+
+- rule: ask for help twice is asking for a hint
+  steps:
+  - action: utter_help
+  - intent: help
+  - action: utter_hint

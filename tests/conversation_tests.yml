@@ -1,0 +1,36 @@
+version: "2.0"
+stories:
+- story: happy test path
+  steps:
+  - intent: greet
+    user: |-
+      hello
+  - action: utter_greet
+  - intent: help
+    user: |-
+      can i get help please
+  - action: utter_help
+  - intent: hint
+    user: |-
+      could you give me a hint
+  - action: utter_hint
+  - intent: look
+    user: |-
+      look at the [window](object)
+  - action: action_look
+  - intent: pickup
+    user: |-
+      pick up the [key](object)
+  - action: action_pickup
+  - slot_was_set:
+    - key: true
+  - intent: pickup
+    user: |-
+      pick up the [poster](object)
+  - action: action_pickup
+  - slot_was_set:
+    - poster: true
+  - intent: inventory
+    user: |-
+      what is in my inventory now
+  - action: action_inventory

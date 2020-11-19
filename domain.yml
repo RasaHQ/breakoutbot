@@ -17,9 +17,11 @@ slots:
   key:
     type: bool
     initial_value: false
+    influence_conversation: true
   poster:
     type: bool
     initial_value: false
+    influence_conversation: true
 responses:
   utter_greet:
   - text: "Hey! Welcome to the breakoutbot adventure! You are in a room and it is\
