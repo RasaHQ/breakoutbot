@@ -25,11 +25,11 @@ If your issue is Rasa related, you might be able to find help on our [forum](htt
 
 ## Start Locally
 
-If you want to play around with this game locally you can clone this repository and setup Rasa. This project currently uses Rasa version 2.0.
+If you want to play around with this game locally you can clone this repository and setup Rasa. This project currently uses Rasa version 2.2.
 
 ```
 git clone git@github.com:RasaHQ/breakoutbot.git
-pip install rasa==2.0
+pip install rasa
 rasa train
 ```
 
